@@ -1,11 +1,11 @@
 ````markdown
-# 🤖 PhysicalAI-Agents
+#  PhysicalAI-Agents
 
 A research-oriented **multi-agent AI system** for robotic manipulation that combines **vision understanding**, **task planning**, **neural control**, **safety monitoring**, and **physics simulation** to perform intelligent physical tasks in a simulated environment.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 **PhysicalAI-Agents** demonstrates how multiple AI agents can collaborate to solve robotic manipulation tasks such as **pick-and-place**, **object interaction**, and **obstacle avoidance**. The project integrates modern AI techniques, including Vision-Language Models (VLMs), neural networks, rule-based planning, and physics simulation, to create a modular and extensible robotics framework.
 
@@ -13,16 +13,16 @@ The system is designed for learning and research in **Embodied AI**, **Agentic A
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 The system consists of five independent agents/modules:
 
-### 👁️ Vision Agent
+###  Vision Agent
 - Understands the environment using **CLIP (Vision-Language Model)**.
 - Detects and identifies objects.
 - Provides scene understanding for planning.
 
-### 🧭 Planning Agent
+###  Planning Agent
 - Generates a sequence of actions required to complete the task.
 - Uses rule-based reasoning inspired by LLM-style planning.
 
@@ -30,17 +30,17 @@ The system consists of five independent agents/modules:
 - Converts high-level plans into robot actions.
 - Uses neural networks built with **PyTorch**.
 
-### 🛡️ Safety Agent
+###  Safety Agent
 - Validates planned actions before execution.
 - Prevents unsafe movements and collisions.
 
-### 🌍 Environment
+###  Environment
 - Simulates the physical world using **Gym** or **PyBullet**.
 - Executes robot actions and provides feedback.
 
 ---
 
-## 🔄 Workflow
+##  Workflow
 
 ```text
 Input Task
@@ -68,7 +68,7 @@ Physics Simulation
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Multi-agent robotic architecture
 - Vision-Language understanding with CLIP
@@ -80,7 +80,7 @@ Physics Simulation
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |------------|---------|
@@ -94,7 +94,7 @@ Physics Simulation
 
 ---
 
-## 🎯 Example Task
+##  Example Task
 
 ### Task
 Pick and place an object while avoiding obstacles.
@@ -110,7 +110,7 @@ Pick and place an object while avoiding obstacles.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 PhysicalAI-Agents/
@@ -139,7 +139,7 @@ PhysicalAI-Agents/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 Clone the repository:
 
@@ -176,7 +176,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run the Project
+##  Run the Project
 
 ```bash
 python main.py
@@ -184,7 +184,7 @@ python main.py
 
 ---
 
-## 📈 Goals
+## Goals
 
 This project explores the integration of:
 
@@ -198,7 +198,7 @@ This project explores the integration of:
 
 ---
 
-## 🔮 Future Work
+##  Future Work
 
 - GPT-based reasoning for advanced planning
 - ROS2 integration for real robots
@@ -210,7 +210,7 @@ This project explores the integration of:
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome!
 
@@ -221,13 +221,13 @@ Contributions are welcome!
 
 ---
 
-## 📜 License
+##  License
 
 This project is released under the **MIT License**.
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **PhysicalAI-Agents** is a research project created to explore **Embodied AI**, **Agentic AI**, **robotics**, and **intelligent autonomous systems** using modern AI techniques.
 ````
